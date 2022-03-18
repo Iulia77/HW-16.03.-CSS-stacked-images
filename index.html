@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Album Multiple Stacked Images</title>
+    <style>
+        body {
+            background-color: #333;
+        }
+        .album {
+            /* border: 1px solid white; */
+            width: 600px;
+            height: 700px;
+        }
+        .album .image {
+            width: 500px;
+            height: 600px;
+            /* border: 1px solid red; */
+        }
+        /* Optimze code:compact    */
+        
+        
+        .album .i-1 {
+            background-image: url(images/picture1.jpg);
+         /* background-repeat: no-repeat;
+            padding-top: 100px;
+            padding-left: 100px;
+
+            box-shadow: 0 0 5px 5px black; */
+        }
+        .album .i-2 {
+            background-image: url(images/picture2.jpg);
+         /* background-repeat: no-repeat;
+            padding-top: 100px;
+            padding-left: 100px; 
+
+            box-shadow: 0 0 5px 5px black; */
+        }
+
+
+        .album .i-3 {
+            background-image: url(images/picture3.jpg);
+
+            box-shadow: 0 0 5px 5px black;
+
+        }
+
+        .album .both {
+            background-repeat: no-repeat;
+            padding: 100px 0 0 100px;
+            box-shadow: 0 0 5px 5px black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="album">
+        <div class="image i-1 both">
+            <div class="image i-2 both">
+                <div class="image i-3"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    
+</body>
+</html>
